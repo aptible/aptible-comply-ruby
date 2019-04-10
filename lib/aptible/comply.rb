@@ -12,7 +12,8 @@ module Aptible
     with_configuration do
       has :root_url,
           classes: [String],
-          default: ENV['COMPLY_ROOT_URL'] || 'https://compliance-os-dashboard.aptible.com'
+          default: ENV['COMPLY_ROOT_URL'] ||
+                   'https://compliance-os-dashboard.aptible.com'
     end
   end
 end
