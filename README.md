@@ -82,5 +82,3 @@ MIT License, see [LICENSE](LICENSE.md) for details.
 
 Copyright (c) 2019 [Aptible](https://www.aptible.com) and contributors.
 
-[<img src="https://s.gravatar.com/avatar/e909153a145b776121111e532ce2856a?s=60" style="border-radius: 50%;" alt="@dawenster" />](https://github.com/Dawenster)
-
