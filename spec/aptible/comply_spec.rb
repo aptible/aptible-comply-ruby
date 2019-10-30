@@ -6,7 +6,7 @@ describe Aptible::Comply do
   it 'should have a configurable root_url' do
     config = described_class.configuration
     expect(config).to be_a GemConfig::Configuration
-    expect(config.root_url).to eq 'https://compliance-os-dashboard.aptible.com'
+    expect(config.root_url).to eq 'https://comply-api.aptible.com'
   end
 
   skip 'uses ENV["COMPLY_ROOT_URL"] if defined' do

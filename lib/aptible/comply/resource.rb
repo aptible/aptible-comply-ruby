@@ -14,5 +14,4 @@ module Aptible
   end
 end
 
-require 'aptible/comply/membership_notification'
 require 'aptible/comply/program'

@@ -1,8 +1,4 @@
-# ![](https://raw.github.com/aptible/straptible/master/lib/straptible/rails/templates/public.api/icon-60px.png) Aptible::Comply
-
-[![Gem Version](https://badge.fury.io/rb/aptible-comply.png)](https://rubygems.org/gems/aptible-comply)
-[![Build Status](https://travis-ci.org/aptible/comply-ruby.png?branch=master)](https://travis-ci.org/aptible/comply-ruby)
-[![Dependency Status](https://gemnasium.com/aptible/comply-ruby.png)](https://gemnasium.com/aptible/comply-ruby)
+# Aptible::Comply
 
 Ruby client for [compliance-os-dashboard.aptible.com](https://compliance-os-dashboard.aptible.com/). The Comply server is built on top of [HAL+JSON](http://tools.ietf.org/html/draft-kelly-json-hal-06), and so this client is just a thin layer on top of the [HyperResource](https://github.com/gamache/hyperresource) gem.
 

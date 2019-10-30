@@ -1,10 +1,6 @@
 require 'aptible/auth'
 require 'gem_config'
 
-ActiveSupport::Inflector.inflections do |inflect|
-  inflect.irregular 'criterion', 'criteria'
-end
-
 module Aptible
   module Comply
     include GemConfig::Base
@@ -13,7 +9,7 @@ module Aptible
       has :root_url,
           classes: [String],
           default: ENV['COMPLY_ROOT_URL'] ||
-                   'https://compliance-os-dashboard.aptible.com'
+                   'https://comply-api.aptible.com'
     end
   end
 end
