@@ -1,6 +1,9 @@
 module Aptible
   module Comply
     class Program < Resource
+      has_many :assets
+      has_many :vendors
+
       field :id
 
       def organization_url
