@@ -3,6 +3,7 @@ module Aptible
     class Program < Resource
       has_many :assets
       has_many :vendors
+      has_many :people
 
       field :id
 
