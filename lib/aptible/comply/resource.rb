@@ -17,3 +17,4 @@ end
 require 'aptible/comply/program'
 require 'aptible/comply/asset'
 require 'aptible/comply/vendor'
+require 'aptible/comply/person'
