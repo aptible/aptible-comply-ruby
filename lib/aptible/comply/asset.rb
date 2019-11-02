@@ -3,6 +3,7 @@ module Aptible
     class Asset < Resource
       belongs_to :program
       belongs_to :vendor
+      has_many :asset_reviews
 
       field :id
       field :asset_type
