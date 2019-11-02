@@ -55,9 +55,9 @@ document.expires_at
 
 | Parameter | Description | Default |
 | --------- | ----------- | --------------- |
-| `root_url` | Root URL of the Comply server | `ENV['COMPLY_ROOT_URL']` or [https://compliance-os-dashboard.aptible.com](https://compliance-os-dashboard.aptible.com) |
+| `root_url` | Root URL of the Comply server | `ENV['APTIBLE_COMPLY_ROOT_URL']` or [https://compliance-os-dashboard.aptible.com](https://compliance-os-dashboard.aptible.com) |
 
-To point the client at a different server (e.g., during development), add the following to your application's initializers (or set the `COMPLY_ROOT_URL` environment variable):
+To point the client at a different server (e.g., during development), add the following to your application's initializers (or set the `APTIBLE_COMPLY_ROOT_URL` environment variable):
 
 ```ruby
 Aptible::Comply.configure do |config|
