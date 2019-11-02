@@ -9,9 +9,9 @@ describe Aptible::Comply do
     expect(config.root_url).to eq 'https://comply-api.aptible.com'
   end
 
-  skip 'uses ENV["COMPLY_ROOT_URL"] if defined' do
+  skip 'uses ENV["APTIBLE_COMPLY_ROOT_URL"] if defined' do
     config = described_class.configuration
-    with_env 'COMPLY_ROOT_URL', 'http://foobar.com' do
+    with_env 'APTIBLE_COMPLY_ROOT_URL', 'http://foobar.com' do
       config.reset
       expect(config.root_url).to eq 'http://foobar.com'
     end
