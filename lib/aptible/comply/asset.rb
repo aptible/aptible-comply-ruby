@@ -4,6 +4,7 @@ module Aptible
       belongs_to :program
       belongs_to :vendor
       has_many :asset_reviews
+      has_many :grants
 
       field :id
       field :asset_type

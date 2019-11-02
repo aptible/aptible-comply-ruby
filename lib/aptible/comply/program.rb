@@ -4,6 +4,7 @@ module Aptible
       has_many :assets
       has_many :vendors
       has_many :people
+      has_many :groups
 
       field :id
 
