@@ -5,6 +5,7 @@ module Aptible
       has_many :vendors
       has_many :people
       has_many :groups
+      has_many :integrations
 
       field :id
 
