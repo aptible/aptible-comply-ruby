@@ -9,7 +9,7 @@ module Aptible
       has :root_url,
           classes: [String],
           default: ENV['APTIBLE_COMPLY_ROOT_URL'] ||
-                   'https://comply-api.aptible.com'
+                   'https://comply-api-prototype.aptible.com'
     end
   end
 end
